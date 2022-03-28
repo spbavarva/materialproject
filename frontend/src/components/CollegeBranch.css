@@ -1,0 +1,53 @@
+
+/* simple card */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 24%;
+    margin: auto;
+    padding: 5px;
+    padding-top: 1px;
+    padding-bottom: 10px;
+    margin-bottom: 10vh;
+}
+
+.card>hr {
+    margin-right: 0;
+    margin-left: 0;
+    margin-top: 3vh;
+}
+
+hr {
+    box-shadow: none !important;
+    margin-top: 3vh;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+    padding: 15px 16px;
+    margin: auto;
+    padding-top: 6vh;
+    padding-bottom: 5vh;
+    display: flex;
+    justify-content: center;
+}
+
+.btn1 {
+    margin-left: 3vh;
+
+}
+
+.btn {
+    margin-right: 2vh;
+    border: 1px solid black;
+    background-color: #0460b0;
+    color: white;
+    border-radius: 5pt;
+}
+
+h2 {
+    text-align: center;
+}

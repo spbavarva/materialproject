@@ -1,0 +1,54 @@
+.header {
+    padding: 10px;
+    border: solid grey !important;
+    width: 100%;
+  }
+  
+  .bs1 {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+      rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  
+  .college-btn {
+    width: 25%;
+    display: inline-grid;
+  }
+  
+  .college {
+    border-radius: 5px;
+    margin-top: 50px;
+    height: 19px;
+    z-index: 0;
+    transition: 0.3s;
+    width: auto;
+    display: inline-grid;
+    transform: translateY(-50px);
+  }
+  
+  .college:hover > .college-content {
+    z-index: 2;
+    display: flex;
+    /* opacity: 12; */
+    transform: translateY(-10px);
+  }
+  
+  .college-content {
+    transform: translateY(-10px);
+    margin-top: 15px;
+    /* opacity: 0; */
+    display: none;
+    z-index: 1;
+    transition: 0.3s;
+    flex-direction: column;
+  }
+  
+  .branch {
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .Branch_heading {
+    margin-left: 2%;
+  }
+  
